@@ -8,6 +8,14 @@ Practice efficiently in order to sharpen your DSA skills
 
 *Note - These questions are taken from Luv Babbar's set of 450 questions for placement*
 
+## Install
+
+Download the zip file of this repository or clone it to your machine
+
+```bash
+git clone git@github.com:angkushsahu/450-dsa-questions.git
+```
+
 ## Tech Stack
 
 ![Tech Stack](https://skillicons.dev/icons?i=cpp&theme=dark)
