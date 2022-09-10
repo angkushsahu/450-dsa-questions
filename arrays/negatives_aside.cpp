@@ -13,11 +13,14 @@ void swap(int &a, int &b) {
 }
 
 void negatives_aside(vector<int> &arr, int size) {
-    int low = 0, high = size - 1;
-    while (low < high) {
-        if (arr[low] > 0) { swap(arr[low], arr[high --]); }
-        low ++;
-    }
+    // the piece of code below is exactly the same as the partitioning logic of quicksort algorithm, (the pivot in this case is 0 as we are interrogating for negative and positive elements)
+    int i = -1;
+	for (int j = 0; j < size; j ++) {
+		if (arr[j] < 0) {
+			i ++;
+			if (i != j) { swap(arr[i], arr[j]); }
+		}
+	}
 }
 
 int main() {
