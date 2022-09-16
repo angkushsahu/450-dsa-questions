@@ -7,6 +7,7 @@
         "*.css": "css",
         "iostream": "cpp",
         "set": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "unordered_set": "cpp"
     }
 }
